@@ -42,6 +42,10 @@ body {
     font-size: 14px;
 }
 
+.menu li {
+    position: relative;
+}
+
 .menu li a {
     padding: 17px;
     color: white;
@@ -50,4 +54,21 @@ body {
 
 .menu li a:hover {
     background: rgb(70, 70, 250);
+}
+
+.submenu {
+    display: none;
+    min-width: 110%;
+    background: rgb(70, 70, 250);
+    list-style: none;
+    top: 33px;
+}
+
+.submenu li a {
+    display: block;
+}
+
+.menu li:hover .submenu {
+    display: block;
+    position: absolute;
 }
