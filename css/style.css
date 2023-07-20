@@ -50,9 +50,10 @@ body {
     padding: 17px;
     color: white;
     text-decoration: none;
+    display: block;
 }
 
-.menu li a:hover {
+.menu li:hover {
     background: rgb(70, 70, 250);
 }
 
@@ -61,7 +62,7 @@ body {
     min-width: 110%;
     background: rgb(70, 70, 250);
     list-style: none;
-    top: 33px;
+    top: 50px;
 }
 
 .submenu li a {
@@ -71,4 +72,8 @@ body {
 .menu li:hover .submenu {
     display: block;
     position: absolute;
+}
+
+.submenu li a:hover {
+    background: rgb(25, 25, 184);
 }
