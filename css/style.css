@@ -1,3 +1,53 @@
 * {
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: rgb(221, 221, 221);
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 0 10px black;
+}
+
+
+.logo {
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: -3px;
+}
+
+.logo span:first-child {
+    color: rgb(70, 70, 250);
+}
+
+.logo span:last-child {
+    letter-spacing: normal;
+    font-size: 12px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+}
+
+.menu li a {
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: rgb(70, 70, 250);
 }
