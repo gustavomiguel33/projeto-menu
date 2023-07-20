@@ -69,12 +69,21 @@ body {
     display: block;
 }
 
-.menu li:hover .submenu {
+.menu > li:hover > .submenu {
     display: block;
     position: absolute;
 }
 
+.submenu > li:hover > .submenu {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
 .submenu li a:hover {
     background: rgb(25, 25, 184);
 }
 
+.menu li .submenu {
+    display: none;
+}
